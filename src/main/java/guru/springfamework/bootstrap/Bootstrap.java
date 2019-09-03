@@ -30,6 +30,8 @@ public class Bootstrap implements CommandLineRunner{
 
         loadCategories();
         loadCustomers();
+        loadVendors();
+
     }
 
     private void loadCategories() {
